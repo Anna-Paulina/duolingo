@@ -1,0 +1,27 @@
+{
+  "id": "salutations",
+  "title": "Salutations",
+  "level": 1,
+  "vocabulary": [
+    { "breton": "Demat", "french": "Bonjour" },
+    { "breton": "Kenavo", "french": "Au revoir" },
+    { "breton": "Penaos emañ kont ?", "french": "Comment ça va ?" }
+  ],
+  "exercises": [
+    {
+      "type": "translate",
+      "question": "Bonjour",
+      "answer": "Demat"
+    },
+    {
+      "type": "translate",
+      "question": "Au revoir",
+      "answer": "Kenavo"
+    },
+    {
+      "type": "write",
+      "question": "Comment dit-on 'Comment ça va ?'",
+      "answer": "Penaos emañ kont ?"
+    }
+  ]
+}
