@@ -1,27 +1,49 @@
 {
   "id": "salutations",
-  "title": "Salutations",
+  "title": "Salutations & Se présenter",
   "level": 1,
+
   "vocabulary": [
     { "breton": "Demat", "french": "Bonjour" },
+    { "breton": "Noz vat", "french": "Bonsoir / Bonne nuit" },
     { "breton": "Kenavo", "french": "Au revoir" },
-    { "breton": "Penaos emañ kont ?", "french": "Comment ça va ?" }
+    { "breton": "Penaos emañ kont ?", "french": "Comment ça va ?" },
+    { "breton": "Mat eo", "french": "Ça va bien" },
+    { "breton": "N'eo ket mat", "french": "Ça ne va pas" },
+    { "breton": "Me zo", "french": "Je suis" },
+    { "breton": "Te zo", "french": "Tu es" },
+    { "breton": "Emañ", "french": "Il/Elle est" },
+    { "breton": "Petra eo da anv ?", "french": "Comment t'appelles-tu ?" },
+    { "breton": "Ma anv eo...", "french": "Mon nom est..." },
+    { "breton": "Me zo eus Kemper", "french": "Je suis de Quimper" }
   ],
+
   "exercises": [
-    {
-      "type": "translate",
-      "question": "Bonjour",
-      "answer": "Demat"
-    },
-    {
-      "type": "translate",
-      "question": "Au revoir",
-      "answer": "Kenavo"
-    },
-    {
-      "type": "write",
-      "question": "Comment dit-on 'Comment ça va ?'",
-      "answer": "Penaos emañ kont ?"
-    }
+
+    { "type": "translate", "question": "Bonjour", "answer": "Demat" },
+    { "type": "translate", "question": "Au revoir", "answer": "Kenavo" },
+    { "type": "translate", "question": "Bonsoir", "answer": "Noz vat" },
+
+    { "type": "translate", "question": "Comment ça va ?", "answer": "Penaos emañ kont ?" },
+
+    { "type": "translate", "question": "Ça va bien", "answer": "Mat eo" },
+    { "type": "translate", "question": "Ça ne va pas", "answer": "N'eo ket mat" },
+
+    { "type": "reorder", "words": ["zo", "Me", "Philippe"], "answer": "Me zo Philippe" },
+
+    { "type": "write", "question": "Comment dit-on : Mon nom est Jean", "answer": "Ma anv eo Jean" },
+
+    { "type": "translate", "question": "Je suis de Quimper", "answer": "Me zo eus Kemper" },
+
+    { "type": "translate", "question": "Tu es de Brest", "answer": "Te zo eus Brest" },
+
+    { "type": "translate", "question": "Je suis Pierre", "answer": "Me zo Pierre" },
+
+    { "type": "translate", "question": "Comment t'appelles-tu ?", "answer": "Petra eo da anv ?" },
+
+    { "type": "write", "question": "Réponds : Comment ça va ?", "answer": "Mat eo" },
+
+    { "type": "write", "question": "Réponds : Bonjour", "answer": "Demat" }
+
   ]
 }
