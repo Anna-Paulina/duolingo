@@ -1,43 +1,12 @@
 [
   {
-  "id": "mutations",
-  "title": "Mutations douces (Lenition)",
-  "level": 1,
-
-  "vocabulary": [
-    { "breton": "bro", "french": "pays" },
-    { "breton": "ma bro", "french": "mon pays" },
-    { "breton": "kêr", "french": "ville" },
-    { "breton": "ma gêr", "french": "ma ville" },
-    { "breton": "bara", "french": "pain" },
-    { "breton": "va bara", "french": "mon pain" },
-    { "breton": "tad", "french": "père" },
-    { "breton": "va zad", "french": "mon père" },
-    { "breton": "merc'h", "french": "fille" },
-    { "breton": "va merc'h", "french": "ma fille" }
-  ],
-
-  "exercises": [
-
-    { "type": "mutation", "question": "ma + bro", "answer": "ma vro" },
-    { "type": "mutation", "question": "ma + kêr", "answer": "ma gêr" },
-    { "type": "mutation", "question": "ma + tad", "answer": "ma zad" },
-    { "type": "mutation", "question": "ma + bara", "answer": "va bara" },
-
-    { "type": "translate", "question": "mon pays", "answer": "ma vro" },
-    { "type": "translate", "question": "ma ville", "answer": "ma gêr" },
-    { "type": "translate", "question": "mon père", "answer": "ma zad" },
-
-    { "type": "write", "question": "Complète : ma ___ (kêr)", "answer": "ma gêr" },
-
-    { "type": "write", "question": "Complète : ma ___ (bro)", "answer": "ma vro" },
-
-    { "type": "translate", "question": "ma fille", "answer": "va merc'h" },
-
-    { "type": "mutation", "question": "ma + merc'h", "answer": "va merc'h" },
-
-    { "type": "write", "question": "Transforme : ma tad", "answer": "ma zad" }
-
-  ]
-}
+    "id": "salutations",
+    "title": "Salutations & Se présenter",
+    "level": 1
+  },
+  {
+    "id": "mutations",
+    "title": "Mutations douces (Lenition)",
+    "level": 1
+  }
 ]
