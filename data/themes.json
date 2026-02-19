@@ -1,12 +1,34 @@
 [
-  {
-    "id": "salutations",
-    "title": "Salutations & Se présenter",
-    "level": 1
-  },
-  {
-    "id": "mutations",
-    "title": "Mutations douces (Lenition)",
-    "level": 1
-  }
+  { "id": "salutations", "title": "Salutations", "level": 1 },
+  { "id": "famille", "title": "Famille", "level": 1 },
+  { "id": "nombres", "title": "Nombres", "level": 1 },
+  { "id": "couleurs", "title": "Couleurs", "level": 1 },
+  { "id": "animaux", "title": "Animaux", "level": 1 },
+  { "id": "nourriture", "title": "Nourriture", "level": 1 },
+  { "id": "cuisine", "title": "Cuisine", "level": 1 },
+
+  { "id": "commander", "title": "Commander à manger", "level": 2 },
+  { "id": "courses", "title": "Faire les courses", "level": 2 },
+  { "id": "maison", "title": "Maison", "level": 2 },
+  { "id": "voyage", "title": "Voyage & directions", "level": 2 },
+  { "id": "transport", "title": "Transports", "level": 2 },
+
+  { "id": "mer", "title": "La mer", "level": 3 },
+  { "id": "montagne", "title": "La montagne", "level": 3 },
+  { "id": "meteo", "title": "Météo", "level": 3 },
+  { "id": "agriculture", "title": "Agriculture", "level": 3 },
+  { "id": "peche", "title": "Pêche", "level": 3 },
+
+  { "id": "festnoz", "title": "Fest-noz", "level": 4 },
+  { "id": "opinion", "title": "Donner son avis", "level": 4 },
+  { "id": "passe", "title": "Parler du passé", "level": 4 },
+  { "id": "futur", "title": "Parler du futur", "level": 4 },
+
+  { "id": "argumenter", "title": "Argumenter", "level": 5 },
+  { "id": "histoire", "title": "Raconter une histoire", "level": 5 },
+  { "id": "culture", "title": "Culture bretonne", "level": 5 },
+
+  { "id": "ports", "title": "Les ports", "level": 5 },
+  { "id": "poissons", "title": "Poissons", "level": 5 },
+  { "id": "cotes", "title": "Côtes & falaises", "level": 5 }
 ]
