@@ -1,0 +1,49 @@
+{
+  "id": "nourriture",
+  "title": "Nourriture",
+  "vocabulary": [
+    {
+      "breton": "Demat",
+      "french": "Bonjour"
+    },
+    {
+      "breton": "Trugarez",
+      "french": "Merci"
+    },
+    {
+      "breton": "Ya",
+      "french": "Oui"
+    },
+    {
+      "breton": "Nann",
+      "french": "Non"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translate",
+      "question": "Bonjour",
+      "answer": "Demat"
+    },
+    {
+      "type": "translate",
+      "question": "Merci",
+      "answer": "Trugarez"
+    },
+    {
+      "type": "translate",
+      "question": "Oui",
+      "answer": "Ya"
+    },
+    {
+      "type": "translate",
+      "question": "Non",
+      "answer": "Nann"
+    },
+    {
+      "type": "translate",
+      "question": "Bonjour et merci",
+      "answer": "Demat ha trugarez"
+    }
+  ]
+}
