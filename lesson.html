@@ -2,20 +2,63 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Leçon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leçon – Brezhoneg 29</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Lora:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="wave"></div>
+  <div class="wave2"></div>
 
-<h2 id="lesson-title"></h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brittany.svg/120px-Flag_of_Brittany.svg.png" class="flag" alt="Gwenn-ha-du">
 
-<div id="exercise-container">
-  <p id="question"></p>
-  <input type="text" id="answer">
-  <button onclick="checkAnswer()">Valider</button>
-  <p id="feedback"></p>
-</div>
+  <main>
+    <a href="index.html" class="back-btn">← Retour</a>
 
-<script src="app.js"></script>
+    <div class="lesson-header">
+      <h2 id="lesson-title"></h2>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p class="progress-label" id="progress-label"></p>
+    </div>
+
+    <div class="card" id="exercise-container">
+      <div class="exercise-type-badge" id="exercise-badge"></div>
+      <p class="question" id="question"></p>
+
+      <!-- Zone reorder -->
+      <div id="reorder-zone" class="reorder-zone hidden">
+        <div id="answer-slots" class="word-slots"></div>
+        <div id="word-bank" class="word-bank"></div>
+      </div>
+
+      <!-- Zone texte libre -->
+      <div id="text-zone" class="hidden">
+        <input type="text" id="answer" placeholder="Ta réponse en breton…" autocomplete="off" autocorrect="off" spellcheck="false">
+      </div>
+
+      <button class="next-btn" id="validate-btn" onclick="checkAnswer()">Valider</button>
+
+      <div class="feedback-box" id="feedback-box">
+        <p id="feedback"></p>
+        <p id="correct-answer" class="correct-hint"></p>
+      </div>
+    </div>
+
+    <!-- Écran de fin -->
+    <div class="card finish-card hidden" id="finish-card">
+      <div class="finish-icon">🎉</div>
+      <h3>Leçon terminée !</h3>
+      <p class="finish-score" id="finish-score"></p>
+      <div class="finish-actions">
+        <button class="next-btn" onclick="restartLesson()">Recommencer</button>
+        <a href="index.html" class="next-btn secondary">Retour au menu</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
